@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    db-1:
+      url: jdbc:postgresql://10.10.100.100:5432/db1
+      username: db1
+      password: db1
+      driver-class-name: org.postgresql.Driver
+    db-2:
+      url: jdbc:postgresql://10.10.100.100:5432/db2
+      username: db2
+      password: db2
+      driver-class-name: org.postgresql.Driver
